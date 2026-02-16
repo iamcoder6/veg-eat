@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Veg Eat",
+  "description": "A premium vegetarian food blogging platform by Umesh Bade featuring regional recipe exploration, an AI voice cooking assistant, a seasonal meal planner, and a stunning gallery.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

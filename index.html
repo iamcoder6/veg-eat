@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Veg Eat | Premium Vegetarian Culinary Experience by Umesh Bade</title>
+    <meta name="title" content="Veg Eat | Premium Vegetarian Culinary Experience by Umesh Bade">
+    <meta name="description" content="Discover the aromatic secrets of Bharat's regional kitchens. Explore vegetarian recipes, AI voice cooking assistants, and seasonal meal planners.">
+    <meta name="author" content="Umesh Bade">
+    <meta name="keywords" content="Vegetarian, Indian Food, Recipes, Umesh Bade, Veg Eat, Cooking Assistant, Puran Poli, Healthy Eating">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vegeat.live/">
+    <meta property="og:title" content="Veg Eat | Premium Vegetarian Culinary Experience">
+    <meta property="og:description" content="Explore the soul of Indian regional kitchens with Umesh Bade's curated vegetarian masterpieces.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1200&auto=format&fit=crop">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                primary: 'var(--brand-primary, #f97316)',
+                secondary: 'var(--brand-secondary, #7c2d12)',
+                accent: 'var(--brand-accent, #fff7ed)',
+                fresh: '#10b981', /* Lightish green for fresh look */
+              }
+            },
+            borderRadius: {
+              'brand': 'var(--brand-radius, 2.5rem)',
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+        :root {
+            --brand-primary: #f97316;
+            --brand-secondary: #7c2d12;
+            --brand-accent: #fff7ed;
+            --brand-radius: 2.5rem;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .font-cursive {
+            font-family: 'Great Vibes', cursive;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(249, 115, 22, 0.1);
+        }
+        .indian-pattern {
+            background-color: var(--brand-accent);
+            background-image: radial-gradient(rgba(249, 115, 22, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 40px -10px rgba(0,0,0,0.08);
+        }
+        .brand-gradient {
+            background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
+        }
+        .fresh-gradient {
+            background: linear-gradient(135deg, #10b981 0%, #064e3b 100%);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--brand-accent);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--brand-primary);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--brand-secondary);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="indian-pattern text-stone-900 overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
